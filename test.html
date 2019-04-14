@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>RMJ Homework 11 HTML, CSS and Bootsrap</title>
+
+    <!--Style shets-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../4/minty/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../_assets/css/custom.min.css">
+    <script>
+
+     var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23019901-1']);
+      _gaq.push(['_setDomainName', "bootswatch.com"]);
+        _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+
+    </script>
+</head>
+
+<body>
+
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">Lattitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="themes">
+                    <a class="dropdown-item" href="temperature.html">Max. Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- /end navbar -->
+  
+ <!--#################################################################--> 
+
+  <main role="main" class="container mt-5"> <!-- Start Container 1-->
+    <div class="row"> <!-- Start row-->
+        <div class="col-md-8"> <!-- Start First Column width 8-->
+            <h1 class="mt-5">Summary: Latitude vs X</h1>
+            <hr>
+            <div class="float-left"><a href="temperature.html"><img src="images/latitude_temp.png" class="pull-left img-responsive w-100" alt="Latitude vs Max Temperatures"></a>
+            </div>
+            <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum consectetur libero id faucibus nisl tincidunt. At auctor urna nunc id cursus metus aliquam eleifend mi. Aliquet eget sit amet tellus cras adipiscing enim. Neque volutpat ac tincidunt vitae semper quis lectus nulla. Feugiat in ante metus dictum at tempor commodo ullamcorper. Nisl vel pretium lectus quam id. Neque volutpat ac tincidunt vitae semper quis lectus nulla. Feugiat in ante metus dictum at tempor commodo ullamcorper. Nisl vel pretium lectus quam id. Arcu risus quis varius quam. Aliquet nec ullamcorper sit amet risus nullam eget. Nullam eget felis eget nunc. Nullam vehicula ipsum a arcu cursus vitae. Viverra accumsan in nisl nisi.</p>
+            </div>
+        </div> <!-- /End First Column width 8-->
+
+        <div class="col-md-4"> <!-- Start Visuals column width 4-->
+                <h1 class="mt-5">Visualizations</h1>
+                <hr>
+                <!-- divide the image into 2 colums and display side by side-->
+                <a href="temperature.html"><img src="images/latitude_temp.png"  class="col-sm-4 p-1 pull-left img-responsive" alt="Max Temperatures"></a>
+                <a href="humidity.html"><img src="images/latitude_humidity.png" class="col-sm-4 p-1 pull-left img-responsive" alt="Latitude versus Humidity"></a>
+                <a href="cloudiness.html"><img src="images/latitude_clouds.png" class="col-sm-4 p-1 pull-left img-responsive" alt="Latitude versus Cloudiness"></a>
+                <a href="windspeed.html"><img src="images/latitude_windspeed.png" class="col-sm-4 p-1 pull-left img-responsive" alt="Latitude versus Wind Speed"></a>
+        </div><!-- /end visuals column--> 
+    </div>
+
+      <footer id="footer">
+        <div class="row">
+          <div class="footer col-lg-12 mt-5 text-center">
+            <p>Week 11 Homework by Ruth Mary Jimenez</p>
+        </div>
+      </footer>
+  </main> <!-- /end container 1-->
+
+
+    
+
+ <!--#################################################################--> 
+
+  <!-- Bootstrap core JavaScript  -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
