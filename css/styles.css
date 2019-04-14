@@ -1,0 +1,19 @@
+a/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+.panel{
+  background-color: #000;  
+  width: auto;
+  margin: 1rem;
+  padding: 15px;
+}
