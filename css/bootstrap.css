@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 1.2;
   color: #78C2AD;
 }
@@ -4458,6 +4458,7 @@ input[type="button"].btn-block {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 2.0rem;
+  font-weight: bold;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -4908,6 +4909,8 @@ input[type="button"].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  color: #78C2AD;
+
 }
 
 .card-subtitle {
@@ -4974,7 +4977,7 @@ input[type="button"].btn-block {
 }
 
 .card-img {
-  width: 100%;
+  width: 80%;
   border-radius: calc(0.4rem - 1px);
 }
 
