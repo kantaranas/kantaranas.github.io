@@ -4,18 +4,19 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <title>RMJ Homework 11 HTML, CSS and Bootsrap</title>
+  <title>Comparing Graphs</title>
 
     <!--Style shets-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="css/custom.min.css">
+
 </head>
 
 <body>
 
     <!-- Start navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <a class="navbar-brand" href="index.html">Lattitude</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,56 +45,58 @@
         </div>
     </nav>
     <!-- /end navbar -->
+  
+ <!--#################################################################--> 
+
+
+<div main="role" class="container-fluid mt-5">
+<div class="row">
+  <div class="col-xs-12 col-md-12">
+    <div class="card">
+      <div class="card-body">
+                <p class="card-title h3">Comparison: Latitude vs X</p>
+                <p>Click on any graph for in more depth analysis.</p>
+                <!-- divide the image into 2 colums and display side by side-->
+                <div class="col-md-6 float-left">
+                <hr>
+                <p class="mt-5 text-center h3">vs Max Temperature</p>
+                <a href="temperature.html"><img src="images/latitude_temp.png" class="w-100 m-2" alt="Max Temperatures"></a>
+                <hr>   
+                <p class="mt-5 text-center h3">vs Humidity</p>
+                <a href="humidity.html"><img src="images/latitude_humidity.png" class="w-100 m-2" alt="Latitude versus Humidity"></a>
+                </div>
+                <!-- divide the content into 2 colums and display side by side-->
+                <div class="col-md-6 float-left">
+                <hr>
+                <p class="mt-5 text-center h3">vs Cloudiness</p>
+                <a href="cloudiness.html"><img src="images/latitude_clouds.png" class="w-100 m-2" alt="Latitude versus Cloudiness"></a>
+                <hr>
+                <p class="mt-5 text-center h3">vs Wind Speed</p>
+                <a href="#"><img src="images/latitude_windspeed.png" class="w-100 m-2" alt="Latitude versus Wind Speed"></a>
+                </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 
  <!--#################################################################--> 
 
-  <main role="main" class="container mt-5"> <!-- Start Container-->
-        <div class="row justify-content-md-center">
-                <div class="col-xs-12 col-md-12"> <!-- Start Second column width 12-->
-                    <h1 class="mt-5">Comparison: Latitude vs X</h1>
-                    <hr> 
-                </div> 
-                <div class="col-xs-12 col-md-12"> 
-                    <p>Click on any plot to view the analysis.</p>
-                </div>       
-                <!-- divide the content into 2 rows and display side by side-->
-                <div class="col-md-6 pull-left">
-                <hr>
-                <h3 class="mt-5 text-center">vs Max Temperature</h3>
-                <a href="temperature.html"><img src="images/latitude_temp.png" class="w-100 m-2" alt="Max Temperatures"></a>
-                <hr>
-                <h3 class="mt-5 text-center">vs Humidity</h3>
-                <a href="humidity.html"><img src="images/latitude_humidity.png" class="w-100 m-2" alt="Latitude versus Humidity"></a>
-                </div>
-                <!-- divide the content into 2 colums and display side by side-->
-                <div class="col-md-6 pull-left">
-                <hr>
-                <h3 class="mt-5 text-center">vs Cloudiness</h3>
-                <a href="cloudiness.html"><img src="images/latitude_clouds.png" class="w-100 m-2" alt="Latitude versus Cloudiness"></a>
-                <hr>
-                <h3 class="mt-5 text-center">vs Wind Speed</h3>
-                <a href="#"><img src="images/latitude_windspeed.png" class="w-100 m-2" alt="Latitude versus Wind Speed"></a>
-                </div>
-        </div>
+<footer id="footer">
+    <div class="card-footer bg-primary border-success mt-5">
+      <p class="text-white-50 text-center">Week 11 Homework by Ruth Mary Jimenez</p>
+    </div>
+</footer>    
+   
 
-        <footer id="footer">
-            <div class="row">
-            <div class="footer col-lg-12 mt-5 text-center">
-                <p>Week 11 Homework by Ruth Mary Jimenez</p>
-            </div>
-        </footer>
- 
-  </main> <!-- /end container 1-->
+ <!--#################################################################--> 
 
-<!--#################################################################--> 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+  <!-- Bootstrap core JavaScript  -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
 </body>
